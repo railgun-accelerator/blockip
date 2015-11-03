@@ -1,0 +1,5 @@
+[Service]
+ExecStart=/srv/railgun/blockip/blockip.py
+
+[Install]
+WantedBy=multi-user.target
